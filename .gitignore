@@ -1,0 +1,21 @@
+# Python
+__pycache__/
+*.pyc
+
+# Virtual environment
+.venv/
+venv/
+
+# Run outputs (regenerate with run.py)
+results.json
+
+# Downloaded EEG data (MNE saves it in your home folder by default; ignore it if it ever lands here)
+mne_data/
+MNE-eegbci-data/
+*.edf
+*.edf.event
+
+# Editor / OS
+.vscode/
+.DS_Store
+Thumbs.db
